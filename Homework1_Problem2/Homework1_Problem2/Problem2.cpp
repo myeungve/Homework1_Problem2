@@ -131,6 +131,8 @@ int main(void)
 	}
 
 	delete[] pixels;
+	
+	delete[] my_objects;
 
 	glfwTerminate();
 	return 0;
